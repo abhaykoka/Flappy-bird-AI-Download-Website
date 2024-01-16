@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+<h3>Welcome</h3>
+{% block content %}
+<center>
+<h1>{{name}} download</h1>
+<form action="flappybird" method='post'>
+
+ {% csrf_token %}
+Enter your Name:<input type="text" name="name"><br>
+Enter your emailaddress:<input type="text" name="emailaddress"><br>
+Enter your mobile number: <input type="number" name="num2"><br>
+ <input type="submit">
+ 
+</form>
+</center>
+{% endblock %}

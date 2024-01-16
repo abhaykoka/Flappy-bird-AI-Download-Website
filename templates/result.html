@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% load static %}
+  <div style="background-color: #2196F3; color: white; text-align: center; padding: 20px;">
+    <h1>Welcome to Flappy Bird Game</h1>
+    <p>Download the game and source code below:</p>
+  </div>
+
+  <div style="text-align: center; margin: 20px;">
+    <a href="{% static 'files/flappybird.zip' %}" download class="btn btn-primary" style="margin: 10px;">Download Zip File</a>
+    <a href="{% static 'files/flappybird.py' %}" download class="btn btn-primary" style="margin: 10px;">Download Source Code</a>
+    <a href="{% static 'files/Flappybird AI using NEAT algorithm.docx' %}" download class="btn btn-primary" style="margin: 10px;">Download Project Report</a>
+  </div>
+{% endblock %}

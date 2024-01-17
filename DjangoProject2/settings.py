@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-u^^6%1%wihbzyx64kdahtza54f#in5ffd%u6+98i_&eb+-0-9j
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['Flappybird-jfjm.onrender.com','127.0.0.1']
+ALLOWED_HOSTS = ['flappybird-jafb.onrender.com','127.0.0.1']
 
 # Application definition
 
